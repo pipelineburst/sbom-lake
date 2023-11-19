@@ -1,0 +1,219 @@
+{
+  "version": "35.0.0",
+  "artifacts": {
+    "SbomLakeStack.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "SbomLakeStack.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "SbomLakeStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/eu-west-1",
+      "properties": {
+        "templateFile": "SbomLakeStack.template.json",
+        "terminationProtection": false,
+        "tags": {
+          "project": "sbomLake"
+        },
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-eu-west-1",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-eu-west-1",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-eu-west-1/9f9c2c309ba20b69bf0d54871023d0bce0ede6bd18fe963ce0ec4518bf762f2c.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "SbomLakeStack.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-eu-west-1",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "SbomLakeStack.assets"
+      ],
+      "metadata": {
+        "/SbomLakeStack": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "project",
+                "Value": "sbomLake"
+              }
+            ]
+          }
+        ],
+        "/SbomLakeStack/SbomLakeKey/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SbomLakeKey9E304040"
+          }
+        ],
+        "/SbomLakeStack/SbomLakeKey/Alias/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SbomLakeKeyAlias9B51507A"
+          }
+        ],
+        "/SbomLakeStack/SbomLake/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SbomLake506212B1"
+          }
+        ],
+        "/SbomLakeStack/SbomLake/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SbomLakePolicy6B6BE43C"
+          }
+        ],
+        "/SbomLakeStack/SbomLake/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SbomLakeAutoDeleteObjectsCustomResource06A9B662"
+          }
+        ],
+        "/SbomLakeStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+          }
+        ],
+        "/SbomLakeStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+          }
+        ],
+        "/SbomLakeStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/SbomLakeStack/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/SbomLakeStack/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "SbomLakeStack"
+    },
+    "SbomLambdaStack.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "SbomLambdaStack.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "SbomLambdaStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/eu-west-1",
+      "properties": {
+        "templateFile": "SbomLambdaStack.template.json",
+        "terminationProtection": false,
+        "tags": {
+          "project": "sbomLake"
+        },
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-eu-west-1",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-eu-west-1",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-eu-west-1/aec01180eb8efef0f446f96c200aafe5abdcfe6c624f2a82fffa0a51cd000406.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "SbomLambdaStack.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-eu-west-1",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "SbomLambdaStack.assets"
+      ],
+      "metadata": {
+        "/SbomLambdaStack": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "project",
+                "Value": "sbomLake"
+              }
+            ]
+          }
+        ],
+        "/SbomLambdaStack/SbomExportHandler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SbomExportHandlerServiceRoleB644C6E3"
+          }
+        ],
+        "/SbomLambdaStack/SbomExportHandler/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SbomExportHandlerServiceRoleDefaultPolicy575BD5D1"
+          }
+        ],
+        "/SbomLambdaStack/SbomExportHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SbomExportHandler434FF04D"
+          }
+        ],
+        "/SbomLambdaStack/eventbridge_sbom_inspector2_rule/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "eventbridgesbominspector2rule9B41DD0A"
+          }
+        ],
+        "/SbomLambdaStack/eventbridge_sbom_inspector2_rule/AllowEventRuleSbomLambdaStackSbomExportHandler4B61DF6F": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "eventbridgesbominspector2ruleAllowEventRuleSbomLambdaStackSbomExportHandler4B61DF6F2DB60294"
+          }
+        ],
+        "/SbomLambdaStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/SbomLambdaStack/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/SbomLambdaStack/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "SbomLambdaStack"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}
