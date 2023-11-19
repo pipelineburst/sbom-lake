@@ -1,2 +1,2 @@
 # sbom-lake
-CDK project to create an sbom lake
+AWS CDK project to create an sbom lake
