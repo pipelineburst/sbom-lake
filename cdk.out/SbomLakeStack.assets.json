@@ -1,5 +1,5 @@
 {
-  "version": "35.0.0",
+  "version": "36.0.0",
   "files": {
     "b7f33614a69548d6bafe224d751a7ef238cde19097415e553fe8b63a4c8fd8a6": {
       "source": {
@@ -15,7 +15,7 @@
         }
       }
     },
-    "9f9c2c309ba20b69bf0d54871023d0bce0ede6bd18fe963ce0ec4518bf762f2c": {
+    "fcc17127e5af688b391e1cd5fb36e3b1c6cf16a2dac6c96818780063b974691f": {
       "source": {
         "path": "SbomLakeStack.template.json",
         "packaging": "file"
@@ -23,7 +23,7 @@
       "destinations": {
         "current_account-eu-west-1": {
           "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-eu-west-1",
-          "objectKey": "9f9c2c309ba20b69bf0d54871023d0bce0ede6bd18fe963ce0ec4518bf762f2c.json",
+          "objectKey": "fcc17127e5af688b391e1cd5fb36e3b1c6cf16a2dac6c96818780063b974691f.json",
           "region": "eu-west-1",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-eu-west-1"
         }

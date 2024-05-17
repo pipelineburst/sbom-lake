@@ -66,7 +66,7 @@
      "S3Bucket": {
       "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-eu-west-1"
      },
-     "S3Key": "e66bd6e743595abfa0ff2d4be2d35e1d24d21478d31cb1f061075f672158780a.zip"
+     "S3Key": "fcae2da1479e91eb696844a3494943d58892cb6ec6ce4e9b6125d2b800ef3a4d.zip"
     },
     "Handler": "lambda.lambda_handler",
     "Role": {
@@ -84,7 +84,7 @@
    ],
    "Metadata": {
     "aws:cdk:path": "SbomLambdaStack/SbomExportHandler/Resource",
-    "aws:asset:path": "asset.e66bd6e743595abfa0ff2d4be2d35e1d24d21478d31cb1f061075f672158780a",
+    "aws:asset:path": "asset.fcae2da1479e91eb696844a3494943d58892cb6ec6ce4e9b6125d2b800ef3a4d",
     "aws:asset:is-bundled": false,
     "aws:asset:property": "Code"
    }
@@ -147,7 +147,7 @@
   "CDKMetadata": {
    "Type": "AWS::CDK::Metadata",
    "Properties": {
-    "Analytics": "v2:deflate64:H4sIAAAAAAAA/02OwQ6CMAyGn8X7qCIJdzHxTPAByBgVK7AldNOQZe/umBw8fX/7tU3PkJ9KyA/yw5nqx2yiDvzdSjWK2Gr9JOeul+BvTitLRovrQ//nGpeZmGMVBMkZfGMm3ERibSZSa5pLKQguWsmMluGyIdZQOTWirSSjwDfqqHzj9iORIYgG2bhFoUg78buB9JD8LoKoV/s0+lhAnkN5eDFRtjhtaUZofvwCCQmkDeoAAAA="
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/02OPQ7CMAxGz8KeGlqQmAGJuQoHQGkwYJofqU5AVZS7EwID0/vsZ1vuoO22sFqoFzf6MjaGBkinoPQoSuucjLLDRUE6RqcDeScOV/efe5wsMZcqC1IWkvQGP6Ky94b0XOdqyoLXZ8WMgWH3QalhH/WIYa8YBT7RFZVk/B0pzFlIZB8njaLulO9u5G7V/0QW/Rzu3i3X0LawWTyYqJmiC2QR5Jdvega5o+oAAAA="
    },
    "Metadata": {
     "aws:cdk:path": "SbomLambdaStack/CDKMetadata/Default"

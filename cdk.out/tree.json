@@ -67,7 +67,7 @@
                 },
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.aws_kms.CfnKey",
-                  "version": "2.106.1"
+                  "version": "2.127.0"
                 }
               },
               "Alias": {
@@ -91,19 +91,19 @@
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.aws_kms.CfnAlias",
-                      "version": "2.106.1"
+                      "version": "2.127.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.aws_kms.Alias",
-                  "version": "2.106.1"
+                  "version": "2.127.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "aws-cdk-lib.aws_kms.Key",
-              "version": "2.106.1"
+              "version": "2.127.0"
             }
           },
           "SbomLake": {
@@ -185,7 +185,7 @@
                 },
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.aws_s3.CfnBucket",
-                  "version": "2.106.1"
+                  "version": "2.127.0"
                 }
               },
               "Policy": {
@@ -316,13 +316,13 @@
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.aws_s3.CfnBucketPolicy",
-                      "version": "2.106.1"
+                      "version": "2.127.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.aws_s3.BucketPolicy",
-                  "version": "2.106.1"
+                  "version": "2.127.0"
                 }
               },
               "AutoDeleteObjectsCustomResource": {
@@ -334,19 +334,19 @@
                     "path": "SbomLakeStack/SbomLake/AutoDeleteObjectsCustomResource/Default",
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.CfnResource",
-                      "version": "2.106.1"
+                      "version": "2.127.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.CustomResource",
-                  "version": "2.106.1"
+                  "version": "2.127.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "aws-cdk-lib.aws_s3.Bucket",
-              "version": "2.106.1"
+              "version": "2.127.0"
             }
           },
           "Custom::S3AutoDeleteObjectsCustomResourceProvider": {
@@ -358,7 +358,7 @@
                 "path": "SbomLakeStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Staging",
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.AssetStaging",
-                  "version": "2.106.1"
+                  "version": "2.127.0"
                 }
               },
               "Role": {
@@ -366,7 +366,7 @@
                 "path": "SbomLakeStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role",
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.CfnResource",
-                  "version": "2.106.1"
+                  "version": "2.127.0"
                 }
               },
               "Handler": {
@@ -374,13 +374,13 @@
                 "path": "SbomLakeStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler",
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.CfnResource",
-                  "version": "2.106.1"
+                  "version": "2.127.0"
                 }
               }
             },
             "constructInfo": {
-              "fqn": "aws-cdk-lib.CustomResourceProvider",
-              "version": "2.106.1"
+              "fqn": "aws-cdk-lib.CustomResourceProviderBase",
+              "version": "2.127.0"
             }
           },
           "CDKMetadata": {
@@ -392,13 +392,13 @@
                 "path": "SbomLakeStack/CDKMetadata/Default",
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.CfnResource",
-                  "version": "2.106.1"
+                  "version": "2.127.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "constructs.Construct",
-              "version": "10.3.0"
+              "version": "10.2.70"
             }
           },
           "BootstrapVersion": {
@@ -406,7 +406,7 @@
             "path": "SbomLakeStack/BootstrapVersion",
             "constructInfo": {
               "fqn": "aws-cdk-lib.CfnParameter",
-              "version": "2.106.1"
+              "version": "2.127.0"
             }
           },
           "CheckBootstrapVersion": {
@@ -414,13 +414,13 @@
             "path": "SbomLakeStack/CheckBootstrapVersion",
             "constructInfo": {
               "fqn": "aws-cdk-lib.CfnRule",
-              "version": "2.106.1"
+              "version": "2.127.0"
             }
           }
         },
         "constructInfo": {
           "fqn": "aws-cdk-lib.Stack",
-          "version": "2.106.1"
+          "version": "2.127.0"
         }
       },
       "SbomLambdaStack": {
@@ -440,7 +440,7 @@
                     "path": "SbomLambdaStack/SbomExportHandler/ServiceRole/ImportServiceRole",
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.Resource",
-                      "version": "2.106.1"
+                      "version": "2.127.0"
                     }
                   },
                   "Resource": {
@@ -479,7 +479,7 @@
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.aws_iam.CfnRole",
-                      "version": "2.106.1"
+                      "version": "2.127.0"
                     }
                   },
                   "DefaultPolicy": {
@@ -512,19 +512,19 @@
                         },
                         "constructInfo": {
                           "fqn": "aws-cdk-lib.aws_iam.CfnPolicy",
-                          "version": "2.106.1"
+                          "version": "2.127.0"
                         }
                       }
                     },
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.aws_iam.Policy",
-                      "version": "2.106.1"
+                      "version": "2.127.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.aws_iam.Role",
-                  "version": "2.106.1"
+                  "version": "2.127.0"
                 }
               },
               "Code": {
@@ -536,7 +536,7 @@
                     "path": "SbomLambdaStack/SbomExportHandler/Code/Stage",
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.AssetStaging",
-                      "version": "2.106.1"
+                      "version": "2.127.0"
                     }
                   },
                   "AssetBucket": {
@@ -544,13 +544,13 @@
                     "path": "SbomLambdaStack/SbomExportHandler/Code/AssetBucket",
                     "constructInfo": {
                       "fqn": "aws-cdk-lib.aws_s3.BucketBase",
-                      "version": "2.106.1"
+                      "version": "2.127.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.aws_s3_assets.Asset",
-                  "version": "2.106.1"
+                  "version": "2.127.0"
                 }
               },
               "Resource": {
@@ -563,7 +563,7 @@
                       "s3Bucket": {
                         "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-eu-west-1"
                       },
-                      "s3Key": "e66bd6e743595abfa0ff2d4be2d35e1d24d21478d31cb1f061075f672158780a.zip"
+                      "s3Key": "fcae2da1479e91eb696844a3494943d58892cb6ec6ce4e9b6125d2b800ef3a4d.zip"
                     },
                     "handler": "lambda.lambda_handler",
                     "role": {
@@ -578,13 +578,13 @@
                 },
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.aws_lambda.CfnFunction",
-                  "version": "2.106.1"
+                  "version": "2.127.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "aws-cdk-lib.aws_lambda.Function",
-              "version": "2.106.1"
+              "version": "2.127.0"
             }
           },
           "eventbridge_sbom_inspector2_rule": {
@@ -626,7 +626,7 @@
                 },
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.aws_events.CfnRule",
-                  "version": "2.106.1"
+                  "version": "2.127.0"
                 }
               },
               "AllowEventRuleSbomLambdaStackSbomExportHandler4B61DF6F": {
@@ -653,13 +653,13 @@
                 },
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.aws_lambda.CfnPermission",
-                  "version": "2.106.1"
+                  "version": "2.127.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "aws-cdk-lib.aws_events.Rule",
-              "version": "2.106.1"
+              "version": "2.127.0"
             }
           },
           "CDKMetadata": {
@@ -671,13 +671,13 @@
                 "path": "SbomLambdaStack/CDKMetadata/Default",
                 "constructInfo": {
                   "fqn": "aws-cdk-lib.CfnResource",
-                  "version": "2.106.1"
+                  "version": "2.127.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "constructs.Construct",
-              "version": "10.3.0"
+              "version": "10.2.70"
             }
           },
           "BootstrapVersion": {
@@ -685,7 +685,7 @@
             "path": "SbomLambdaStack/BootstrapVersion",
             "constructInfo": {
               "fqn": "aws-cdk-lib.CfnParameter",
-              "version": "2.106.1"
+              "version": "2.127.0"
             }
           },
           "CheckBootstrapVersion": {
@@ -693,13 +693,13 @@
             "path": "SbomLambdaStack/CheckBootstrapVersion",
             "constructInfo": {
               "fqn": "aws-cdk-lib.CfnRule",
-              "version": "2.106.1"
+              "version": "2.127.0"
             }
           }
         },
         "constructInfo": {
           "fqn": "aws-cdk-lib.Stack",
-          "version": "2.106.1"
+          "version": "2.127.0"
         }
       },
       "Tree": {
@@ -707,13 +707,13 @@
         "path": "Tree",
         "constructInfo": {
           "fqn": "constructs.Construct",
-          "version": "10.3.0"
+          "version": "10.2.70"
         }
       }
     },
     "constructInfo": {
       "fqn": "aws-cdk-lib.App",
-      "version": "2.106.1"
+      "version": "2.127.0"
     }
   }
 }

@@ -359,7 +359,7 @@
   "CDKMetadata": {
    "Type": "AWS::CDK::Metadata",
    "Properties": {
-    "Analytics": "v2:deflate64:H4sIAAAAAAAA/1WOQQ6CMBBFz8K+jFYS9sjSDYEDGCwVx0KbdFoNaXp3qZgQV//992cxJ+DHEnjWvykXg8onvEHoXC8UW9U1qJkgXOTC6rtOUU3YUypfiIwKCGcvlHRJ/miLxkwoll1vPUZWe3JmbiUZb4VMBzv/TY01LxykZRWRdOtXI+oxsmZxD6MPBXAOZfYkxNx67XCW0G75AV1xivbWAAAA"
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/1WOQQ6CMBBFz+K+jAImroGlG4IHMLWMWAtt0mk1pOndpWJCXP3335/FFJAXJzjs+Jsy0atslDcIF8eFYou6BjURhDPOrLnrFNUoOaXyhciohFB7odAl+aM1WjNKMW967TGyxpMzU4dkvBWYDjb+m1prXrJHW3NCVhGhWz4bpB4ia2f3MHpfQp7DcfckKTPrtZMTQrfmByRGz6faAAAA"
    },
    "Metadata": {
     "aws:cdk:path": "SbomLakeStack/CDKMetadata/Default"
